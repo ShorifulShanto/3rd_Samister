@@ -1,1 +1,21 @@
+Copy all elements from one array to another array.
 
+#include <stdio.h>
+
+int main() {
+    int a[] = {10, 20, 30, 40, 50};
+    int n = 5;
+    int b[n];
+
+    for(int i = 0; i < n; i++) {
+        b[i] = a[i];
+    }
+
+    printf("Elements of the second array:\n");
+    for(int i = 0; i < n; i++) {
+        printf("%d ", b[i]);
+    }
+
+    printf("\n");
+    return 0;
+}
