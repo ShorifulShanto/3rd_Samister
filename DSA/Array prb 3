@@ -1,1 +1,23 @@
+Determine the largest and smallest elements within an array.
 
+#include <stdio.h>
+
+int main() {
+    int arr[] = {25, 47, 12, 89, 63};
+    int i;
+
+    int max = arr[0];
+    int min = arr[0];
+
+    for(i = 1; i < 5; i++) {
+        if(arr[i] > max)
+            max = arr[i];
+        if(arr[i] < min)
+            min = arr[i];
+    }
+
+    printf("Largest = %d\n", max);
+    printf("Smallest = %d\n", min);
+
+    return 0;
+}
