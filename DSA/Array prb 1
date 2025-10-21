@@ -1,6 +1,5 @@
-Qus 1:: Write a program to take a specific number of integer inputs from the user and store them in an array, 
-then print all the elements of the array.
-
+Write a program to take a specific number of integer inputs from the user and store them in an array, 
+then print all the elements of the array. 
 
 #include <stdio.h>
 
