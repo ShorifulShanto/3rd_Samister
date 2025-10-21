@@ -2,7 +2,6 @@ Qus 1:: Write a program to take a specific number of integer inputs from the use
 then print all the elements of the array.
 
 
-
 #include <stdio.h>
 
 int main() {
