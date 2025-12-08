@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main(){int a[]={1,2,3,4,5,6};int l=0,r=5,key=4,mid;while(l<=r){mid=(l+r)/2;if(a[mid]==key){printf("found");return 0;}else if(key>a[mid])l=mid+1;else r=mid-1;}printf("not found");}

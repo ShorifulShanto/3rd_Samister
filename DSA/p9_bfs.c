@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main(){int n=4,vis[4]={0},q[10],f=0,r=0;int g[4][4]={{0,1,1,0},{1,0,0,1},{1,0,0,1},{0,1,1,0}};q[r++]=0;vis[0]=1;while(f<r){int u=q[f++];printf("%d ",u);for(int v=0;v<n;v++){if(g[u][v]&&!vis[v]){vis[v]=1;q[r++]=v;}}}}
